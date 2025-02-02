@@ -327,35 +327,35 @@ def backup_tables():
     client.create_backup(TableName='Citas', BackupName='CitasBackup')
 
 if __name__ == "__main__":
-    #print("Ejercicio 1: Crear tablas")
-    #crear_tablas()
+    print("Ejercicio 1: Crear tablas")
+    crear_tablas()
     
-    #print("Ejercicio 2: Insertar registros")
-    #insert_records()
+    print("Ejercicio 2: Insertar registros")
+    insert_records()
     
-    # print("Ejercicio 3: Obtener un registro")
-    # get_record()
+    print("Ejercicio 3: Obtener un registro")
+    get_record()
     
-    # print("Ejercicio 4: Actualizar un registro")
-    # update_record()
+    print("Ejercicio 4: Actualizar un registro")
+    update_record()
     
-    # print("Ejercicio 5: Borrar un registro")
-    # delete_record()
+    print("Ejercicio 5: Borrar un registro")
+    delete_record()
     
-    # print("Ejercicio 6: Obtener todos los registros")
-    # get_all_records()
+    print("Ejercicio 6: Obtener todos los registros")
+    get_all_records()
     
-    # print("Ejercicio 7: Obtener registros filtrados")
-    # get_filtered_records()
+    print("Ejercicio 7: Obtener registros filtrados")
+    get_filtered_records()
     
-    # print("Ejercicio 8: Borrado condicional")
-    # conditional_delete()
+    print("Ejercicio 8: Borrado condicional")
+    conditional_delete()
     
-    # print("Ejercicio 9: Obtener registros con múltiples filtros")
-    # get_multiple_filters()
+    print("Ejercicio 9: Obtener registros con múltiples filtros")
+    get_multiple_filters()
     
-    # print("Ejercicio 10: Ejecutar declaración PartiQL")
-    # partiql_statement()
+    print("Ejercicio 10: Ejecutar declaración PartiQL")
+    partiql_statement()
     
     print("Ejercicio 11: Crear copias de seguridad de las tablas")
     backup_tables()
